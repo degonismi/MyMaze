@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Degonis\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Degonis\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Maze.-1089346263.00" t="ExcludeRecursive" />
+    <e p="D:\Unity\Maze" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="NotificationsView.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="EventManager.cs" t="Include" />
+          <e p="GameInput.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="MazeMover.cs" t="Include" />
+          <e p="NotificationManager.cs" t="Include" />
+          <e p="Simple_timer.cs" t="Include" />
+          <e p="SO" t="Include">
+            <e p="_dataBackGrounds.cs" t="Include" />
+            <e p="_dataLevels.cs" t="Include" />
+            <e p="_dataPlayers.cs" t="Include" />
+          </e>
+          <e p="Tools" t="Include">
+            <e p="Level_GO.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="MainUI.cs" t="Include" />
+            <e p="UI_GamePanel.cs" t="Include" />
+            <e p="UI_MenuPanel.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Maze.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
