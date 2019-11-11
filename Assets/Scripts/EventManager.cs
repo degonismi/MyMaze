@@ -7,8 +7,7 @@ public class EventManager : MonoBehaviour
 {
 
     public static EventManager Instance { get; private set; }
-
-
+    
     // UI
     public Action OnGameUIAction;
     public Action OnMenuUIAction;

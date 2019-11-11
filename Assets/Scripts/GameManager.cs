@@ -23,15 +23,6 @@ public class GameManager : MonoBehaviour
          Destroy(gameObject);
       }
    }
-
-
-   private void Update()
-   {
-      SetTime();
-   }
-
-   private void SetTime()
-   {
-      MyTimer += Time.deltaTime;
-   }
+   
+   
 }
