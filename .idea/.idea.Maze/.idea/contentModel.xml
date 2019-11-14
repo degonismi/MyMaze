@@ -547,6 +547,7 @@
           <e p="GameInput.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="Gameplay" t="Include">
+            <e p="Maze.cs" t="Include" />
             <e p="MazeMover.cs" t="Include" />
           </e>
           <e p="Level_GO.cs" t="Include" />
@@ -555,6 +556,9 @@
             <e p="_dataBackGrounds.cs" t="Include" />
             <e p="_dataLevels.cs" t="Include" />
             <e p="_dataPlayers.cs" t="Include" />
+          </e>
+          <e p="Tools" t="Include">
+            <e p="MakeMazeVar.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="MainUI.cs" t="Include" />

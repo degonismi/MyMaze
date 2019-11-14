@@ -12,7 +12,7 @@ public class GameInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     
     private bool _move;
 
-    [Range(0, 10)] public float Speed;
+    [Range(0, 1000)] public float Speed;
 
     public Rigidbody2D Rigidbody;
     
@@ -34,6 +34,7 @@ public class GameInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         _currentInput = _input - Input.mousePosition.x;
         _currentInput *= Speed;
         _currentInput = Mathf.Clamp(_currentInput, -300, 300);
+        if(Rigidbody)
         Rigidbody.angularVelocity = -_currentInput;
         _input = Input.mousePosition.x;
     }
@@ -42,6 +43,7 @@ public class GameInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         EventManager.Instance.OnUpdate -= Move;
         _input = 0;
+        if(Rigidbody)
         Rigidbody.angularVelocity = _input;
         _move = false;
     }

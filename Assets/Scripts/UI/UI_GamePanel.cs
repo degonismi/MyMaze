@@ -1,18 +1,30 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using Mazer;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UI_GamePanel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]  private Button _nextButton;
+    [SerializeField] private Button _resetButton;
+    [SerializeField] private Text _levelText;
 
-    // Update is called once per frame
-    void Update()
+    public Level_GO LevelGo;
+    
+    private void Start()
     {
+        _nextButton.onClick.AddListener(() =>
+        {
+            LevelGo.NextLevel();
+            _levelText.text = FindObjectOfType<Maze>().gameObject.name;
+        });
+        _resetButton.onClick.AddListener(() =>
+        {
+            LevelGo.Restart();
+            _levelText.text = FindObjectOfType<Maze>().gameObject.name;
+        });
         
     }
 }
