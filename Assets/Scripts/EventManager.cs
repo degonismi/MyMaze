@@ -14,7 +14,7 @@ public class EventManager : MonoBehaviour
     
     // GameCycle
     public Action<int> OnRespawnLevelAction;
-    
+    public Action<float> OnInputAction;
     
     public Action OnUpdate;
     public Action OnFixedUpdate;

@@ -7,14 +7,24 @@ namespace Mazer
 {
     public class Maze : MonoBehaviour
     {
+        private Rigidbody2D _rigidbody;
+        
         private void Start()
         {
-            FindObjectOfType<GameInput>().Rigidbody = GetComponent<Rigidbody2D>();
+            _rigidbody = GetComponent<Rigidbody2D>();
+            EventManager.Instance.OnInputAction += RotateMaze;
         }
 
-        private void Update()
+        private void RotateMaze(float speed)
         {
             transform.localPosition = Vector3.zero;
+            _rigidbody.angularVelocity = -speed;
+            
+        }
+
+        private void OnDisable()
+        {
+            EventManager.Instance.OnInputAction -= RotateMaze;
         }
     }
 

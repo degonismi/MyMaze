@@ -7,8 +7,6 @@ public class GameManager : MonoBehaviour
 {
    public static GameManager Instance { get; private set; }
 
-   public GameInput MyGameInput;
-   public float MyInput;
 
    public float MyTimer;
    

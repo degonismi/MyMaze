@@ -2,24 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dbd8560-7fec-431f-80e5-d1db035fe585" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/Maze.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/Maze.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_1/m1_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_1/m1_2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_2.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_2.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_4.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_4.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_6.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_8.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_8.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_9.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_9.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelPack_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelPack_1.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level_GO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level_GO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/_dataLevels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SO/_dataLevels.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UI_GamePanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UI_GamePanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Mazes/Types/1/_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Mazes/Types/1/_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Mazes/Types/1/_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Mazes/Types/1/_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Mazes/Types/2/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Mazes/Types/2/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Mazes/Types/2/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Mazes/Types/2/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Mazes/Types/2/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Mazes/Types/2/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Maze.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Maze.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO/_dataLevels.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO/_dataPlayers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/GameScene.unity" root0="FORCE_HIGHLIGHTING" />
@@ -65,15 +69,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SO/_dataBackGrounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO/_dataPlayers.cs" />
         <option value="$PROJECT_DIR$/Assets/_testing/TestInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UI_MenuPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tools/MakeMazeVar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO/_dataLevels.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Maze.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UI_GamePanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Level_GO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Maze.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameInput.cs" />
       </list>
     </option>
   </component>
@@ -140,6 +144,12 @@
       <workItem from="1573496440161" duration="3688000" />
       <workItem from="1573673831957" duration="40000" />
       <workItem from="1573675482706" duration="3523000" />
+      <workItem from="1573711748550" duration="27000" />
+      <workItem from="1573760700926" duration="600000" />
+      <workItem from="1573763055445" duration="508000" />
+      <workItem from="1573794427264" duration="784000" />
+      <workItem from="1574517373567" duration="1255000" />
+      <workItem from="1574536107453" duration="3781000" />
     </task>
     <servers />
   </component>
