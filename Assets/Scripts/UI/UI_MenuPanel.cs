@@ -13,7 +13,11 @@ public class UI_MenuPanel : MonoBehaviour
 
     private void Start()
     {
-        _startButton.onClick.AddListener( () => { ChangeState(GameState.game); });
+        _startButton.onClick.AddListener(() =>
+        {
+            ChangeState(GameState.game);
+            EventManager.Instance.OnStartGameAction?.Invoke();
+        });
         _settingsButton.onClick.AddListener( () => { ChangeState(GameState.settings); });
         _levelsButton.onClick.AddListener( () => { ChangeState(GameState.levels); });
         _shopButton.onClick.AddListener( () => { ChangeState(GameState.shop); });

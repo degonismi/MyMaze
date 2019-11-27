@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class UI_GamePanel : MonoBehaviour
 {
+    [SerializeField] private Button _startB;
     [SerializeField]  private Button _nextButton;
     [SerializeField] private Button _resetButton;
     [SerializeField] private Text _levelText;
@@ -15,6 +16,11 @@ public class UI_GamePanel : MonoBehaviour
     
     private void Start()
     {
+        _startB.onClick.AddListener((() =>
+        {
+            EventManager.Instance.OnStartGameAction?.Invoke();
+        }));
+        
         _nextButton.onClick.AddListener(() =>
         {
             LevelGo.NextLevel();

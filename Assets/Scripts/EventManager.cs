@@ -18,6 +18,8 @@ public class EventManager : MonoBehaviour
     public Action<float> OnInputAction;
     public Action<int, LevelState> OnEndLevelAction;
 
+    public Action OnStartGameAction;
+    
     public Action OnUpdateUIAction;
     public Action OnUpdate;
     public Action OnFixedUpdate;
