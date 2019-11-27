@@ -2,27 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dbd8560-7fec-431f-80e5-d1db035fe585" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/Maze.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/Maze.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_1/m1_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_1/m1_2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_2.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_2.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_4.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_4.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_6.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_8.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_8.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_9.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mazes/pack_2/m2_9.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelPack_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelPack_1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/MainUI.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/MainUI.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/MenuState.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/MenuState.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/BGs.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/BGs.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Maze.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Maze.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level_GO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level_GO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/_dataBackGrounds.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/_dataBackGrounds.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/_dataLevels.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/_dataLevels.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/_dataPlayers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SO/_dataPlayers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MainUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MainUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UI_MenuPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UI_MenuPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/bg_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/bg_5.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/derevyannyj_tekstura_poverkhnost_118676_1920x1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/derevyannyj_tekstura_poverkhnost_118676_1920x1080.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/derevyannyy_doski_temnyy_fon_50499_1920x1200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/derevyannyy_doski_temnyy_fon_50499_1920x1200.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/derevyannyy_fon_doski_tekstura_69530_1920x1200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/derevyannyy_fon_doski_tekstura_69530_1920x1200.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/derevyannyy_fon_tekstura_doski_ten_50729_1920x1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/derevyannyy_fon_tekstura_doski_ten_50729_1920x1080.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/derevyannyy_temnyy_fon_tekstura_55321_1920x1200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/derevyannyy_temnyy_fon_tekstura_55321_1920x1200.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/doska_poverhnost_derevyannyy_temnyy_ten_50727_1920x1080 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/doska_poverhnost_derevyannyy_temnyy_ten_50727_1920x1080 (1).jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/doski_dereviannyj_tekstura_122614_1920x1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/doski_dereviannyj_tekstura_122614_1920x1080.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/doski_derevyannyy_svet_polosy_50632_1920x1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/doski_derevyannyy_svet_polosy_50632_1920x1080.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/doski_temnyy_derevyannyy_poverhnost_tekstura_50616_1920x1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/doski_temnyy_derevyannyy_poverhnost_tekstura_50616_1920x1080.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/luxfon.com-9304.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/luxfon.com-9304.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/osen-listia-fon-colorful-klen-wood-background-autumn-leav-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Bg/osen-listia-fon-colorful-klen-wood-background-autumn-leav-14.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Input_panel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/Input_panel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sptites/vector-gear-png-gear-computer-icons-clipart-6709f40e51c7be04.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sptites/vector-gear-png-gear-computer-icons-clipart-6709f40e51c7be04.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,26 +62,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO/_dataLevels.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO/_dataPlayers.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/SO/_dataBackGrounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/GameScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level_GO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5CA63D73-3E26-463C-AB04-C9E7BC8EECF0/24/934c4c25/EditorGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/MakeMazeVar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotificationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/509C587A-3371-4222-B5E8-1666B5099AF1/9f/de05b89c/GUIStyle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/NotificationsView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO/_dataBackGrounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI_GamePanel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Maze.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI_SettingsPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI_MenuPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI_SetButtons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_testing/TestInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/MazeTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Simple_timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5CA63D73-3E26-463C-AB04-C9E7BC8EECF0/24/934c4c25/EditorGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI_LevelPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Maze.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI_LevelButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI_ShopPanel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,20 +97,27 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Simple_timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NotificationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/NotificationsView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO/_dataBackRrounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tools/Level_GO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO/_dataBackGrounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO/_dataPlayers.cs" />
         <option value="$PROJECT_DIR$/Assets/_testing/TestInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UI_MenuPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tools/MakeMazeVar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO/_dataLevels.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UI_GamePanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Level_GO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Maze.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level_GO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tools/SO/_dataBackGrounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UI_LevelButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UI_MenuPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UI_LevelPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UI_SettingsPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UI_SetButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UI_ShopPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameInput.cs" />
       </list>
     </option>
@@ -149,7 +190,7 @@
       <workItem from="1573763055445" duration="508000" />
       <workItem from="1573794427264" duration="784000" />
       <workItem from="1574517373567" duration="1255000" />
-      <workItem from="1574536107453" duration="3781000" />
+      <workItem from="1574536107453" duration="28735000" />
     </task>
     <servers />
   </component>

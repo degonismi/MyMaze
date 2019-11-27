@@ -30,6 +30,17 @@
         <e p="Editor" t="Include">
           <e p="NotificationsView.cs" t="Include" />
         </e>
+        <e p="PlayerPrefsEditor" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Mac" t="Include">
+              <e p="Plist.cs" t="Include" />
+            </e>
+            <e p="PlayerPrefsEditor.cs" t="Include" />
+          </e>
+          <e p="PlayerPrefsUtility.cs" t="Include" />
+          <e p="Readme.txt" t="Include" />
+          <e p="SimpleEncryption.cs" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="Zenject" t="Include">
             <e p="LICENSE.txt" t="Include" />
@@ -542,6 +553,14 @@
             <e p="Version.txt" t="Include" />
           </e>
         </e>
+        <e p="ReorderableInspector" t="Include">
+          <e p="Editor" t="Include">
+            <e p="ReorderableArrayInspector.cs" t="Include" />
+            <e p="SerializedPropExtension.cs" t="Include" />
+          </e>
+          <e p="EditScriptableAttribute.cs" t="Include" />
+          <e p="ReorderableAttribute.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="EventManager.cs" t="Include" />
           <e p="GameInput.cs" t="Include" />
@@ -549,22 +568,29 @@
           <e p="Gameplay" t="Include">
             <e p="Maze.cs" t="Include" />
             <e p="MazeMover.cs" t="Include" />
+            <e p="MazeTrigger.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
           </e>
           <e p="Level_GO.cs" t="Include" />
           <e p="NotificationManager.cs" t="Include" />
-          <e p="SO" t="Include">
-            <e p="_dataBackGrounds.cs" t="Include" />
-            <e p="_dataLevels.cs" t="Include" />
-            <e p="_dataPlayers.cs" t="Include" />
-          </e>
           <e p="Tools" t="Include">
             <e p="MakeMazeVar.cs" t="Include" />
+            <e p="SO" t="Include">
+              <e p="_dataBackGrounds.cs" t="Include" />
+              <e p="_dataLevels.cs" t="Include" />
+              <e p="_dataPlayers.cs" t="Include" />
+            </e>
           </e>
           <e p="UI" t="Include">
             <e p="MainUI.cs" t="Include" />
             <e p="Simple_timer.cs" t="Include" />
             <e p="UI_GamePanel.cs" t="Include" />
+            <e p="UI_LevelButton.cs" t="Include" />
+            <e p="UI_LevelPanel.cs" t="Include" />
             <e p="UI_MenuPanel.cs" t="Include" />
+            <e p="UI_SetButtons.cs" t="Include" />
+            <e p="UI_SettingsPanel.cs" t="Include" />
+            <e p="UI_ShopPanel.cs" t="Include" />
           </e>
         </e>
       </e>

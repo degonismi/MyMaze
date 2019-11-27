@@ -42,6 +42,12 @@ public class Level_GO : MonoBehaviour
         _player = Instantiate(PlayerPrefab, transform.position, Quaternion.identity, transform);
     }
 
+    [ContextMenu("Hide")]
+    public void HideMaze()
+    {
+        
+    }
+    
     public void NextLevel()
     {
         Index++;
@@ -66,34 +72,6 @@ public class Level_GO : MonoBehaviour
         Destroy(_player);
         _player = Instantiate(PlayerPrefab, transform.position, Quaternion.identity, transform);
     }
-    
-    
-    
-    
-    public void ChangeLevel(GameObject level)
-    {
-        if (_levelPrefab)
-        {
-            Destroy(_levelPrefab);
-        }
-        _levelPrefab = Instantiate(level, new Vector3(0,YPos,0), Quaternion.identity, transform);
-        
-    }
 
-    public void ChangePlayer(GameObject player)
-    {
-        if (_player)
-        {
-            Destroy(_player);
-        }
-        _player = Instantiate(player, new Vector3(0,YPos,0), Quaternion.identity, transform);
-    }
 
-    public void ChangeBackGround(Sprite newBG)
-    {
-        _backGround.GetComponent<SpriteRenderer>().sprite = newBG;
-        
-    }
-
-    
 }
