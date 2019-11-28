@@ -18,7 +18,7 @@ namespace Mazer
             _rigidbody = GetComponent<Rigidbody2D>();
             EventManager.Instance.OnInputAction += RotateMaze;
 
-            _fakeMazeSpeed = 4;
+            _fakeMazeSpeed = 1;
             EventManager.Instance.OnStartGameAction += ShowMaze;
         }
 
@@ -43,7 +43,7 @@ namespace Mazer
         {
             float coef;
             
-            while (Mathf.Abs(maze.rotation.z)  > 0.01f)
+            while (Mathf.Abs(maze.rotation.z)  > 0.05f)
             {
                 if ( maze.rotation.z > 0)
                 {
