@@ -11,7 +11,7 @@ public class Level_GO : MonoBehaviour
     [SerializeField] private GameObject _levelPrefab;
     [SerializeField] private GameObject _player;
 
-    [SerializeField] private GameObject PlayerPrefab;
+    [SerializeField] private GameObject[] PlayerPrefabs;
 
     [SerializeField] private _dataLevels _levels;
 
@@ -39,7 +39,7 @@ public class Level_GO : MonoBehaviour
     {
         Index = 0;
         _levelPrefab = Instantiate(_levels.Levels_1[Index], transform.position, Quaternion.identity, transform).gameObject;
-        _player = Instantiate(PlayerPrefab, transform.position, Quaternion.identity, transform);
+        _player = Instantiate(PlayerPrefabs[Random.Range(0, PlayerPrefabs.Length)], transform.position, Quaternion.identity, transform);
     }
 
     [ContextMenu("Hide")]
@@ -48,19 +48,27 @@ public class Level_GO : MonoBehaviour
         
     }
     
-    public void NextLevel()
+    public void NextLevel(bool res)
     {
         Index++;
         if (Index >= _levels.Levels_1.Count)
         {
             Index = 0;
         }
+
+        string ev = _levelPrefab.name + "__" + res;
+            Amplitude.Instance.logEvent(ev);
         
         Destroy(_levelPrefab);
+        
+       
+        
         _levelPrefab = Instantiate(_levels.Levels_1[Index], transform.position, Quaternion.identity, transform).gameObject;
         
         Destroy(_player);
-        _player = Instantiate(PlayerPrefab, transform.position, Quaternion.identity, transform);
+        _player = Instantiate(PlayerPrefabs[Random.Range(0, PlayerPrefabs.Length)], transform.position, Quaternion.identity, transform);
+        
+        
 
     }
 
@@ -70,7 +78,7 @@ public class Level_GO : MonoBehaviour
         _levelPrefab = Instantiate(_levels.Levels_1[Index], transform.position, Quaternion.identity, transform).gameObject;
         
         Destroy(_player);
-        _player = Instantiate(PlayerPrefab, transform.position, Quaternion.identity, transform);
+        _player = Instantiate(PlayerPrefabs[Random.Range(0, PlayerPrefabs.Length)], transform.position, Quaternion.identity, transform);
     }
 
 

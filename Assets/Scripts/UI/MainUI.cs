@@ -28,6 +28,9 @@ public class MainUI : MonoBehaviour
              case GameState.game:
                 trigger = "ToGame";
                 break;
+             case GameState.endgame:
+                 trigger = "ToEndGame";
+                 break;
              case GameState.settings:
                 trigger = "ToSettings";
                 break;
@@ -37,9 +40,8 @@ public class MainUI : MonoBehaviour
              case GameState.levels:
                 trigger = "ToLevels";
                 break;
-            
         }
         _animator.SetTrigger(trigger);
     }
-    
+
 }

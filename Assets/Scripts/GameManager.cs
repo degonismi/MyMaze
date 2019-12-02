@@ -6,8 +6,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
    public static GameManager Instance { get; private set; }
-
-
+   
    public List<LevelState>  LevelsState;
    public float MyTimer;
    
@@ -39,7 +38,8 @@ public class GameManager : MonoBehaviour
          }
          SaveGame();
       }
-      
+
+      Application.targetFrameRate = 60;
    }
 
    private void Start()
@@ -61,7 +61,6 @@ public class GameManager : MonoBehaviour
    public int Level;
    public LevelState LevelState;
 
-   [ContextMenu("Open Level")]
    public void OpenLevel()
    {
       LevelsState[Level] = LevelState;
@@ -107,6 +106,7 @@ public enum GameState
 {
    menu,
    game,
+   endgame,
    shop,
    levels,
    settings

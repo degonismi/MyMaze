@@ -32,7 +32,7 @@ public class GameInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         _currentInput = _input - Input.mousePosition.x;
         _currentInput *= Speed;
-        _currentInput = Mathf.Clamp(_currentInput, -250, 250);
+        _currentInput = Mathf.Clamp(_currentInput, -225, 225);
         _input = Input.mousePosition.x;
         
     }

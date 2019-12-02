@@ -12,3 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec5b3f8010ecbd4e883934ea64fbb8d, type: 3}
   m_Name: PlayersSkins
   m_EditorClassIdentifier: 
+  Players:
+  - {fileID: 1147366612881532752, guid: 4ab2d1e2f070f1a40adc0bc235d1ca2d, type: 3}
+  - {fileID: 5109486207017557841, guid: 4bdc825402e24ab4a9b7ca6e7908c75d, type: 3}
+  - {fileID: 4436735626426783378, guid: bf096382ca99bd242a8547e610be234d, type: 3}
+  - {fileID: 7621321348475551304, guid: 9516de44abece7a45b3e7d30f9f7968c, type: 3}
+  - {fileID: 1214686013219814351, guid: cb4d72b493cdfb64895621609825fbec, type: 3}

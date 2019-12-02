@@ -13,6 +13,7 @@ public class AnaliticsManager : MonoBehaviour
 
     public static void SendStartLevel()
     {
+        //Amplitude.Instance.logEvent("start_level");
         Analytics.CustomEvent("level_start", new Dictionary<string, object>
         {
             {"level", 0}

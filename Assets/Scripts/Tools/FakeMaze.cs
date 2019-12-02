@@ -11,6 +11,6 @@ public class FakeMaze : MonoBehaviour
     {
         GetComponent<SpriteRenderer>().sprite = transform.parent.GetComponent<SpriteRenderer>().sprite;
         int x = Random.Range(0, 360);
-        transform.rotation = Quaternion.Euler(0,0,x);
+        transform.rotation = Quaternion.Euler(0,0,45);
     }
 }
